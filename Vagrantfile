@@ -16,6 +16,7 @@ Vagrant.configure("2") do |config|
   # boxes at https://vagrantcloud.com/search.
   config.vm.box = "ubuntu/xenial64"
   config.vm.synced_folder "~/Engineering/Rockstar/PHPVagrant", "/PHPVagrant"
+  #this below line needs to link to where you installed the magento tar file
   config.vm.synced_folder "~/magento", "/home/vagrant/magento"
 # end
 #
