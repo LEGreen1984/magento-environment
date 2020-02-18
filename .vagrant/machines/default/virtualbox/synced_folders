@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 {"virtualbox":{"/home/vagrant/PHPCode":{"type":"virtualbox","guestpath":"/home/vagrant/PHPCode","hostpath":"C:/Users/CSetup/Engineering/Rockstar/PHPVagrant","disabled":false,"__vagrantfile":true},"/home/vagrant/magento":{"guestpath":"/home/vagrant/magento","hostpath":"C:/Users/CSetup/magento","disabled":false,"__vagrantfile":true}}}
+=======
+<<<<<<< HEAD
+{"virtualbox":{"/home/vagrant/magento":{"guestpath":"/home/vagrant/magento","hostpath":"C:/Users/Vishnu Jeyarathnam/magento","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/Vishnu Jeyarathnam/rockar/magento-environment","disabled":false,"__vagrantfile":true}}}
+=======
+{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/Lennox Bampoe-Addo/src/magento-environment","disabled":false,"__vagrantfile":true}}}
+>>>>>>> 2791f5bbdaccd362df452656254f02eee6a03a8f
+>>>>>>> 6d545b960258352e204550f9d6ad7c81ce7bedc9
