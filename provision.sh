@@ -1,8 +1,8 @@
 echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
 sudo apt-get upgrade -y
-sudo apt-get update
-sudo apt-get install apache2 -y
-
+sudo apt-get update -y
+sudo apt-get install apache2
+apache2 -v
 sudo sed -i "s/Options Indexes FollowSymLinks/Options FollowSymLinks/" /etc/apache2/apache2.conf
 
 sudo systemctl start apache2.service
