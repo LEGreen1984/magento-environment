@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"virtualbox":{"/home/vagrant/magento":{"guestpath":"/home/vagrant/magento","hostpath":"C:/Users/Vishnu Jeyarathnam/magento","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/Vishnu Jeyarathnam/rockar/magento-environment","disabled":false,"__vagrantfile":true}}}
+=======
+{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/Lennox Bampoe-Addo/src/magento-environment","disabled":false,"__vagrantfile":true}}}
+>>>>>>> 2791f5bbdaccd362df452656254f02eee6a03a8f
