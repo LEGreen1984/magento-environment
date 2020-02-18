@@ -10,6 +10,7 @@ Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/xenial64"
   # config.vm.synced_folder "~/Engineering/Rockstar/PHPVagrant", "/PHPVagrant"
   # config.vm.synced_folder "~/magento", "/home/vagrant/magento"
+  config.vm.synced_folder ".", "/home/vagrant/PHPCode", type: "virtualbox"
   config.vm.provision "shell", path: "provision.sh"
 
 # end
