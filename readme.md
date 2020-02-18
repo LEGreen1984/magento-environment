@@ -1,5 +1,7 @@
 Pre-instructions
- 
+
+- Git clone this repo from GitHub to you're localhost https://github.com/LEGreen1984/magento-environment.git
+
 - Go the magento download site and download the open source version as a TAR file
 
 <img src='magento.png'>
