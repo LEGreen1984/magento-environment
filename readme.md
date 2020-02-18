@@ -1,7 +1,5 @@
 Pre-instructions
-
-Download and install: Vagrant & VirtualBox  
-
+ 
 - Go the magento download site and download the open source version as a TAR file
 
 <img src='magento.png'>
@@ -11,6 +9,8 @@ Download and install: Vagrant & VirtualBox
 <img src='path.png'>
 
 - Copy and paste the tar file into this folder. This is vital because the ‘synced folder’ route is hardcoded.
+
+Download and install: Vagrant & VirtualBox :
 
 - <vagrant up> to create your VM
 
