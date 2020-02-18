@@ -8,23 +8,9 @@
 Vagrant.configure("2") do |config|
   config.vm.network "private_network", ip: "192.168.10.100"
   config.vm.box = "ubuntu/xenial64"
-<<<<<<< HEAD
   config.vm.synced_folder "~/magento", "/home/vagrant/magento"
   config.vm.synced_folder ".", "/home/vagrant/PHPCode", type: "virtualbox"
   config.vm.provision "shell", path: "provision.sh"
-
-
-=======
-<<<<<<< HEAD
-  #config.vm.synced_folder "~/Engineering/Rockstar/PHPVagrant", "/PHPVagrant"
-  config.vm.synced_folder "~/magento", "/home/vagrant/magento"
-=======
-  # config.vm.synced_folder "~/Engineering/Rockstar/PHPVagrant", "/PHPVagrant"
-  # config.vm.synced_folder "~/magento", "/home/vagrant/magento"
-  config.vm.provision "shell", path: "provision.sh"
-
->>>>>>> 2791f5bbdaccd362df452656254f02eee6a03a8f
->>>>>>> 6d545b960258352e204550f9d6ad7c81ce7bedc9
 # end
 #
 # config.vm.define "magento" do |magento|
