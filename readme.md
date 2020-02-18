@@ -1,14 +1,20 @@
+Pre-instructions
 
-Go the magento download site and download the open source version as a TAR file
+Download and install: Vagrant & VirtualBox  
+
+- Go the magento download site and download the open source version as a TAR file
 
 <img src='magento.png'>
 
-Next, create a directory called ‘magento’ with the path ‘~/magento’.
+- Next, create a directory called ‘magento’ with the path ‘~/magento’.
 
 <img src='path.png'>
 
-Copy and paste the tar file into this folder. This is vital because the ‘synced folder’ route is hardcoded.
+- Copy and paste the tar file into this folder. This is vital because the ‘synced folder’ route is hardcoded.
 
+- <vagrant up> to create your VM
+
+- <vagrant ssh> will give you access to a shell
 
 Creating Magento Database
 
@@ -29,5 +35,8 @@ Then grant, the user you’ve created unlimited access to the new database:
 4.	GRANT ALL ON magento.* TO'magentouser'@'localhost'IDENTIFIED BY'EnterPasswordHere'WITH GRANT OPTION;
 
 Save the changes and exit:
+
 5.	FLUSH PRIVILEGES;
+
+
 6.	EXIT;
