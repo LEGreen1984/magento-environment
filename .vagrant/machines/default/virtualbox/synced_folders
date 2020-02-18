@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/PHPCode":{"type":"virtualbox","guestpath":"/home/vagrant/PHPCode","hostpath":"C:/Users/Lennox Bampoe-Addo/src/magento-environment","disabled":false,"__vagrantfile":true},"/home/vagrant/magento":{"guestpath":"/home/vagrant/magento","hostpath":"C:/Users/Lennox Bampoe-Addo/magento","disabled":false,"__vagrantfile":true}}}

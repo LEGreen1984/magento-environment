@@ -1,8 +1,8 @@
 echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
 sudo apt-get upgrade -y
-sudo apt-get update
-sudo apt-get install apache2 -y
-
+sudo apt-get update -y
+sudo apt-get install apache2
+apache2 -v
 sudo sed -i "s/Options Indexes FollowSymLinks/Options FollowSymLinks/" /etc/apache2/apache2.conf
 
 sudo systemctl start apache2.service
@@ -26,7 +26,7 @@ fi
 
 sudo mkdir /var/www/html/magento/
 
-sudo tar -zxvf ~/magento/Magento-CE*.tar.gz -C /var/www/html/magento/
+sudo tar -zxvf /home/vagrant/magento/Magento-CE*.tar.gz -C /var/www/html/magento/
 
 sudo chown -R www-data:www-data /var/www/html/magento
 
@@ -37,3 +37,5 @@ sudo a2ensite magento.conf
 sudo a2enmod rewrite
 
 sudo systemctl restart apache2.service
+
+sudo service apache2 restart
