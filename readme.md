@@ -5,8 +5,7 @@ Go the magento download site and download the open source version as a TAR file
 
 Next, create a directory called ‘magento’ with the path ‘~/magento’.
 
-
-<img src='gitbashpic.png'>
+<img src='path.png'>
 
 Copy and paste the tar file into this folder. This is vital because the ‘synced folder’ route is hardcoded.
 
