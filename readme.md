@@ -24,7 +24,8 @@ By now, all the packages required to support Magento 2 installation are ready. N
 
 You will be prompted for your MYSQL Server password. Enter the password and click Enter to continue.
 
-Run the following commands to create a new database titled Magento
+Run the following commands to create a new database titled Magento:
+
 2.	CREATE DATABASE  magento;
 
 Next, create a user called magentouser and assign the user a new password, using the commands below:
@@ -32,6 +33,7 @@ Next, create a user called magentouser and assign the user a new password, using
 3.	CREATE USER'magentouser'@'localhost'IDENTIFIED BY'EnterNewPasswordHere';
 
 Then grant, the user you’ve created unlimited access to the new database:
+
 4.	GRANT ALL ON magento.* TO'magentouser'@'localhost'IDENTIFIED BY'EnterPasswordHere'WITH GRANT OPTION;
 
 Save the changes and exit:
