@@ -14,9 +14,9 @@ Pre-instructions
 
 Download and install: Vagrant & VirtualBox :
 
-- <vagrant up> to create your VM
+- <vagrant up> To create your VM
 
-- <vagrant ssh> will give you access to a shell
+- <vagrant ssh> Will give you access to a shell
 
 Creating Magento Database
 
